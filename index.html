@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free AI 2D to 3D Converter | 2Dto3Dconverter</title>
+    <meta name="description" content="Use our advanced AI 2D to 3D converter to turn your flat pictures into detailed 3D models. Perfect for artists, designers, and hobbyists. No skills needed.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AI 2D to 3D Converter: Create 3D Models in Seconds">
+    <meta property="og:description" content="Use our advanced AI 2D to 3D converter to turn your flat pictures into detailed 3D models. Perfect for artists, designers, and hobbyists. No skills needed.">
+    <meta property="og:image" content="images/hero-bg.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="AI 2D to 3D Converter: Create 3D Models in Seconds">
+    <meta property="twitter:description" content="Use our advanced AI 2D to 3D converter to turn your flat pictures into detailed 3D models. Perfect for artists, designers, and hobbyists. No skills needed.">
+    <meta property="twitter:image" content="images/hero-bg.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Unbounded:wght@400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "2Dto3Dconverter",
+      "description": "Use our advanced AI 2D to 3D converter to turn your flat pictures into detailed 3D models. Perfect for artists, designers, and hobbyists. No skills needed.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "mainEntity": {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a 2D to 3D Converter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A 2D to 3D Converter is a powerful AI image effect that transforms a standard, flat (2D) photograph into a dynamic image with perceived depth and dimension. Our tool analyzes your photo to intelligently create a 3D-like parallax effect, making your images come to life."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to convert an image from 2D to 3D?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The processing time depends on the complexity and resolution of the image you upload. However, our AI is highly optimized for speed, ensuring you get your converted 3D image much faster than with most competing tools."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the 2D to 3D Converter free to use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, absolutely! All you need to do is sign up for a free account on our website. Upon registration, we provide you with free credits that you can use to access our 2D to 3D Converter and other exciting AI tools."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are my uploaded images safe and private?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your privacy and data security are our top priorities. Uploaded images are processed securely and are automatically deleted from our servers after a short period. We never use your images for anything other than generating the effect you requested."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What kind of images work best for this effect?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For the best results, use images with a clear subject and a distinct background. Photos with natural layers of depth, such as portraits, landscapes, and product shots, tend to produce the most impressive 3D effects."
+            }
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <a href="#" class="logo">
+            <i class="fa-solid fa-cube"></i> 2Dto3Dconverter
+        </a>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="#how-to-use">How it Works</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#faq">FAQs</a></li>
+                <li><a href="#playground" class="btn btn-primary">Generate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-animation"></div>
+        <div class="hero-bg-image">
+            <img src="images/hero-bg.jpg" alt="Abstract 3D void environment background" loading="eager">
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content reveal-on-scroll">
+            <h1 class="glitch-text">Free AI 2D to 3D Converter</h1>
+            <p>Use our advanced AI 2D to 3D converter to turn your flat pictures into detailed 3D models. Perfect for artists, designers, and hobbyists. No skills needed.</p>
+            <a href="#playground" class="btn btn-primary btn-lg">Generate</a>
+        </div>
+    </section>
+
+    <!-- Playground Section -->
+    <section id="playground">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <h2>Free AI 2D to 3D Converter</h2>
+                <p>Transform any 2D image into a high-quality 3D model with our instant AI converter. Get detailed meshes ready for 3D printing, game design, or animation.</p>
+            </div>
+
+            <div class="playground-grid">
+                <!-- Left: Controls -->
+                <div class="control-panel blister-pack reveal-on-scroll">
+                    <div id="upload-zone" class="upload-zone">
+                        <div class="upload-content">
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                            <p>Drag & Drop or Click to Upload</p>
+                            <input type="file" id="file-input" accept="image/*" hidden>
+                        </div>
+                        <img id="preview-image" class="preview-image hidden" alt="Upload preview">
+                    </div>
+                    
+                    <div class="actions">
+                        <button id="reset-btn" class="btn btn-outline" disabled>
+                            <i class="fa-solid fa-rotate-left"></i> Reset
+                        </button>
+                        <button id="generate-btn" class="btn btn-primary" disabled>
+                            <i class="fa-solid fa-wand-magic-sparkles"></i> Generate
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right: Result -->
+                <div class="result-panel blister-pack reveal-on-scroll">
+                    <div id="result-container" class="result-display">
+                        <div class="placeholder-state">
+                            <i class="fa-solid fa-cube"></i>
+                            <p>Result will appear here</p>
+                        </div>
+                        <div id="loading-state" class="loading-state hidden">
+                            <div class="spinner"></div>
+                            <p>Converting to 3D...</p>
+                        </div>
+                        <img id="result-final" class="hidden" alt="3D Result">
+                    </div>
+                    
+                    <div class="actions">
+                        <a id="download-btn" class="btn btn-secondary disabled" href="#" download="3d-result.jpg">
+                            <i class="fa-solid fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-to-use">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <h2>How Does It Work?</h2>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card blister-pack reveal-on-scroll">
+                    <div class="step-number">01</div>
+                    <h3>Upload Image</h3>
+                    <p>Start by uploading a clear photo that you want to convert to 3D. For best results, use a high-quality image with good lighting and a clear subject.</p>
+                </div>
+                <div class="step-card blister-pack reveal-on-scroll" style="transition-delay: 0.1s;">
+                    <div class="step-number">02</div>
+                    <h3>Generate 3D Image</h3>
+                    <p>Click the “Convert to 3D” button. The AI will instantly analyze your 2D photo, adding depth and dimension to transform it into a 3D image.</p>
+                </div>
+                <div class="step-card blister-pack reveal-on-scroll" style="transition-delay: 0.2s;">
+                    <div class="step-number">03</div>
+                    <h3>Download & Share</h3>
+                    <p>Once your 3D image is ready, you can download it to your device or share it with friends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <h2>Gallery</h2>
+                <p>See what others are creating.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item blister-pack reveal-on-scroll">
+                    <img src="images/gallery-result-1.jpg" alt="Fashion model transformed into vinyl toy" loading="lazy">
+                </div>
+                <div class="gallery-item blister-pack reveal-on-scroll" style="transition-delay: 0.1s;">
+                    <img src="images/gallery-result-2.jpg" alt="Cybernetic cat figurine" loading="lazy">
+                </div>
+                <div class="gallery-item blister-pack reveal-on-scroll" style="transition-delay: 0.2s;">
+                    <img src="images/gallery-result-3.jpg" alt="Fantasy warrior toy figure" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <h2>What People Say about us</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card blister-pack reveal-on-scroll">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="quote">"I was looking for a simple tool to add some life to my old photos, and this worked perfectly. The 3D effect is surprisingly good!"</p>
+                    <div class="author">
+                        <span class="name">Liam</span>
+                        <span class="role">iOS user from USA</span>
+                    </div>
+                </div>
+                <div class="testimonial-card blister-pack reveal-on-scroll" style="transition-delay: 0.1s;">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="quote">"As a creative designer, I'm always exploring new tools. The converter from Max Studio is incredibly intuitive and saves me so much time."</p>
+                    <div class="author">
+                        <span class="name">Sophia</span>
+                        <span class="role">Creative Designer</span>
+                    </div>
+                </div>
+                <div class="testimonial-card blister-pack reveal-on-scroll" style="transition-delay: 0.2s;">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="quote">"It’s just fun to use! I turned a bunch of my drawings into 3D images and the results were amazing."</p>
+                    <div class="author">
+                        <span class="name">Noah</span>
+                        <span class="role">Content Creator</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-container reveal-on-scroll">
+                <div class="faq-item">
+                    <button class="faq-question">What is a 2D to 3D Converter? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>A 2D to 3D Converter is a powerful AI image effect that transforms a standard, flat (2D) photograph into a dynamic image with perceived depth and dimension. Our tool analyzes your photo to intelligently create a 3D-like parallax effect, making your images come to life.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How long does it take to convert an image from 2D to 3D? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>The processing time depends on the complexity and resolution of the image you upload. However, our AI is highly optimized for speed, ensuring you get your converted 3D image much faster than with most competing tools.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Is the 2D to 3D Converter free to use? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>Yes, absolutely! All you need to do is sign up for a free account on our website. Upon registration, we provide you with free credits that you can use to access our 2D to 3D Converter and other exciting AI tools.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Are my uploaded images safe and private? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>Your privacy and data security are our top priorities. Uploaded images are processed securely and are automatically deleted from our servers after a short period. We never use your images for anything other than generating the effect you requested.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What kind of images work best for this effect? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>For the best results, use images with a clear subject and a distinct background. Photos with natural layers of depth, such as portraits, landscapes, and product shots, tend to produce the most impressive 3D effects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <a href="#" class="footer-logo">
+                <i class="fa-solid fa-cube"></i> 2Dto3Dconverter
+            </a>
+            <div class="footer-links">
+                <a href="#how-to-use">How it Works</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#" data-modal-target="privacy-modal">Privacy Policy</a>
+                <a href="#" data-modal-target="terms-modal">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 2Dto3Dconverter. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Privacy Modal -->
+    <div id="privacy-modal" class="modal hidden">
+        <div class="modal-content blister-pack">
+            <div class="modal-header">
+                <h3>Privacy Policy</h3>
+                <button class="close-modal" data-modal-close="privacy-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h2>Privacy Policy</h2>
+                <p><strong>Last Updated:</strong> 2024</p>
+
+                <h4>1. Data Collection</h4>
+                <p>We collect only the minimum data necessary:</p>
+                <ul>
+                <li>Images you upload for processing (temporarily stored)</li>
+                <li>Basic usage analytics (non-personal)</li>
+                <li>Browser type and device information</li>
+                </ul>
+
+                <h4>2. Image Processing</h4>
+                <p>Your uploaded images are:</p>
+                <ul>
+                <li>Processed securely on our servers</li>
+                <li>Automatically deleted within 24 hours</li>
+                <li>Never shared with third parties</li>
+                <li>Not used for AI training without consent</li>
+                </ul>
+
+                <h4>3. Data Security</h4>
+                <p>All data transmission is encrypted using SSL/TLS protocols.</p>
+
+                <h4>4. Cookies</h4>
+                <p>We use essential cookies only for site functionality.</p>
+
+                <h4>5. Your Rights</h4>
+                <p>You have the right to request deletion of any stored data.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms Modal -->
+    <div id="terms-modal" class="modal hidden">
+        <div class="modal-content blister-pack">
+            <div class="modal-header">
+                <h3>Terms of Service</h3>
+                <button class="close-modal" data-modal-close="terms-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h2>Terms of Service</h2>
+                <p><strong>Last Updated:</strong> 2024</p>
+
+                <h4>1. Acceptance of Terms</h4>
+                <p>By using this service, you agree to these Terms.</p>
+
+                <h4>2. Service Description</h4>
+                <p>This service provides AI-powered image transformation. Provided "as-is" without warranties.</p>
+
+                <h4>3. Acceptable Use</h4>
+                <p>You agree NOT to upload:</p>
+                <ul>
+                <li>Illegal or unlawful content</li>
+                <li>Explicit, pornographic, or obscene material</li>
+                <li>Content depicting violence or harm</li>
+                <li>Images you do not have rights to use</li>
+                </ul>
+
+                <h4>4. Intellectual Property</h4>
+                <p>You retain full ownership of your original images. Generated effects are royalty-free for personal and commercial use.</p>
+
+                <h4>5. Limitation of Liability</h4>
+                <p>We are not liable for any damages arising from the use of this service.</p>
+
+                <h4>6. Modifications</h4>
+                <p>We may update these terms at any time. Continued use constitutes acceptance.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
